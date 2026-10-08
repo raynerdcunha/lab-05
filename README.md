@@ -2,16 +2,13 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Rayner Dcunha`
+- **CCID:** `rdcunha`
 
 ## References and Resources
 
-List any resources used here, or simply put `N/A` if not applicable.
+Claude by Anthropic - Used to figure out how to add a pop up for deletion of city and also to make sure that delete button remains on screen due to LazyColumn
 
 ## Verbal Collaboration
 
-| Student Name | CCID      |
-| ------------ | --------- |
-| `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
+N/A

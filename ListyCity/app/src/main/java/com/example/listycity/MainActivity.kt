@@ -16,7 +16,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         val cityRepository = CityRepository()
-
         setContent {
             ListyCityTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
@@ -26,6 +25,7 @@ class MainActivity : ComponentActivity() {
                         onUpdateCity = { oldCity, updatedCity ->
                             cityRepository.updateCity(oldCity, updatedCity)
                         },
+                        onDeleteCity = { cityRepository.deleteCity(it) },
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
